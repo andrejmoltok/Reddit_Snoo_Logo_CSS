@@ -1,0 +1,124 @@
+.container {
+  margin: auto auto;
+  position: relative;
+  top: 170px;
+  width: 150px;
+  height: 150px;
+  background-color: #FF5700;
+  border-radius: 50%;
+}
+
+.face {
+  margin: auto auto;
+  position: relative;
+  top: 45px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  transform: skewX(80deg);
+  transform: rotateX(50deg);
+}
+
+.lefteye {
+  position: relative;
+  top: -10px;
+  left: -17px;
+  margin: auto auto;
+  width: 15px;
+  height: 15px;
+  background-color: #FF5700;
+  border-radius: 50%;
+}
+
+.righteye {
+  position: relative;
+  top: -25px;
+  left: 17px;
+  margin: auto auto;
+  width: 15px;
+  height: 15px;
+  background-color: #FF5700;
+  border-radius: 50%;
+}
+
+.leftear {
+  margin: auto auto;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  top: -52px;
+  left: -40px;
+}
+
+.rightear {
+  margin: auto auto;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  top: -72px;
+  left: 38px;
+}
+
+.mouth {
+  margin: auto auto;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: #FF5700;
+  border-radius: 50%;
+  transform: skewX(30deg);
+  transform: rotateX(70deg);
+  top: -70px;
+}
+
+.mouth-cover {
+  margin: auto auto;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  transform: skewX(30deg);
+  transform: rotateX(70deg);
+  top: -110px;
+}
+
+.antenna1 {
+  margin: auto auto;
+  position: relative;
+  width: 5px;
+  height: 35px;
+  background-color: #FFF;
+  top: -195px;
+  left: 2px;
+  transform: skewX(-10deg);
+  border-radius: 25%;
+}
+
+.antenna2 {
+  margin: auto auto;
+  position: relative;
+  width: 18px;
+  height: 5px;
+  background-color: #FFF;
+  top: -229px;
+  left: 12px;
+  transform: rotate3D(0, 0, 1, 15deg);
+  border-radius: 30%;
+}
+
+.antenna-dot {
+  margin: auto auto;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: #FFF;
+  border-radius: 50%;
+  top: -235px;
+  left: 25px;
+}
